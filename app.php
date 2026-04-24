@@ -14,6 +14,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'OPTIONS') {
 }
 
 // Load API routes
-require_once __DIR__ . '/routes/api.php';
+require_once __DIR__ . '/routes/index.php';
 
 ?>
