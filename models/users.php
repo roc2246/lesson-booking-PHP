@@ -1,6 +1,8 @@
 <?php
 require_once __DIR__ . '/db/index.php';
 
+$pdo = getPDO();
+
 // Login / User Management
 
 function createUser($pdo, $user)
